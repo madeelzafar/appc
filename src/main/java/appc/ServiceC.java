@@ -50,9 +50,9 @@ public class ServiceC implements IServiceC {
 		JumbleResultEntity jumbleResultEntity = new JumbleResultEntity();
 		jumbleResultEntity.setCreateDate(new Date());
 		jumbleResultEntity.setParam1(leftOne);
-		jumbleResultEntity.setParam1(rightOne);
-		jumbleResultEntity.setParam1(leftTwo);
-		jumbleResultEntity.setParam1(rightTwo);
+		jumbleResultEntity.setParam2(rightOne);
+		jumbleResultEntity.setParam3(leftTwo);
+		jumbleResultEntity.setParam4(rightTwo);
 		jumbleResultEntity.setResult(result);
 		
 		// store in database
